@@ -1,0 +1,6 @@
+@mixin flex($prop1, $prop2, $prop3, $prop4) {
+    display: $prop1;
+    flex-direction: $prop2;
+    justify-content: $prop3;
+    align-items: $prop4;
+}
