@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.videoPage {
+  min-height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.videoPage .videoPage__playBtn {
+  cursor: pointer;
+}
+/*# sourceMappingURL=videoPage.css.map */

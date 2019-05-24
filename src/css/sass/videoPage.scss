@@ -1,0 +1,13 @@
+@import './mixins';
+@import './variables';
+.videoPage {
+    min-height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @include flex(flex, column, center, center);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .videoPage__playBtn {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+/*# sourceMappingURL=formsPage.css.map */

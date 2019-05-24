@@ -1,0 +1,23 @@
+@import './mixins';
+@import './variables';
+// section 3
+.creativity {
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    @include flex(flex, column, center, center);
+    .creativity__content {
+        @include flex(flex, column, center, center);
+        .creativity__title {
+            @include flex(flex, column, center, center);
+            max-width: 400px;
+            min-width: 370px;
+            height: 100px;
+            border: 2px solid #fff;
+            font-family: $textFont;
+            color: $whiteColor;
+            font-size: 30px;
+            font-weight: 700px;
+        }
+    }
+}

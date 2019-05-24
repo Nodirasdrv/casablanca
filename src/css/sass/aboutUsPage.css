@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.aboutUsPage {
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content {
+  height: 100%;
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222;
+  text-align: center;
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__textBox .aboutUsPage__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees {
+  max-width: 1170px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox {
+  width: 270px;
+  height: 360px;
+  border: 1px solid #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__card-title {
+  width: 107px;
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__applyBtn {
+  width: 183px;
+  height: 60px;
+  background: none;
+  outline: none;
+  border: 2px solid black;
+  font-weight: 700;
+  font-family: "Amble", serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=aboutUsPage.css.map */

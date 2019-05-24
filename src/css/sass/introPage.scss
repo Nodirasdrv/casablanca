@@ -1,0 +1,23 @@
+@import './variables';
+@import './mixins';
+// section 2
+.introduction {
+    height: 500px;
+    @include flex(flex, column, center, center);
+    .introduction__content {
+        @include flex(flex, column, center, center);
+        .introduction__textBox {
+            .introduction__title {
+                @include title();
+            }
+            @include flex(flex, column, center, center);
+            max-width: 740px;
+            color: $textColor;
+            text-align: center;
+            .introduction__text {
+                font-family: $textFont;
+                font-size: 22px;
+            }
+        }
+    }
+}

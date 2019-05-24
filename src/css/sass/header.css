@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.welcomePage {
+  display: none;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+}
+
+.welcomePage .welcomePage__content {
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcomePage .welcomePage__content .welcomePage__header {
+  width: 100%;
+  height: 80px;
+}
+
+.welcomePage .welcomePage__content .welcomePage__header .welcomePage__hamburgerImg {
+  cursor: pointer;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 680px;
+  color: #fff;
+  text-align: center;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox .welcomePage__title {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: "Big John", serif;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox .welcomePage__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+.welcomePage .welcomePage__content .welcomePage__mouseImg {
+  cursor: pointer;
+}
+/*# sourceMappingURL=header.css.map */

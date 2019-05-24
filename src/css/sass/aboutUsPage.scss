@@ -1,0 +1,55 @@
+@import './variables';
+@import './mixins';
+.aboutUsPage {
+    min-height: 800px;
+    @include flex(flex, column, space-around, center);
+    .aboutUsPage__content {
+        height: 100%;
+        width: 1170px;
+        @include flex(flex, column, space-around, center);
+        .aboutUsPage__textBox {
+            @include flex(flex, column, center, center);
+            .aboutUsPage__title {
+                @include title();
+            }
+            // max-width: 740px;
+            color: $textColor;
+            text-align: center;
+            font-family: $textFont;
+            font-size: 22px;
+        }
+        .aboutUsPage__employees {
+            max-width: 1170px;
+            width: 100%;
+            @include flex(flex, row, space-between, center);
+            flex-wrap: wrap;
+            .aboutUsPage__applyBox {
+                width: 270px;
+                height: 360px;
+                border: 1px solid #222;
+                @include flex(flex, column, center, center);
+                .aboutUsPage__applyBox-container {
+                    height: 80%;
+                    @include flex(flex, column, space-around, center);
+                    text-align: center;
+                    .aboutUsPage__card-title {
+                        width: 107px;
+                        @include title();
+                        font-size: 24px;
+                    }
+                    .aboutUsPage__applyBtn {
+                        width: 183px;
+                        height: 60px;
+                        background: none;
+                        outline: none;
+                        border: 2px solid black;
+                        font-weight: 700;
+                        font-family: $textFont;
+                        font-size: 24px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

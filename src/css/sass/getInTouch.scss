@@ -1,0 +1,23 @@
+@import './variables';
+@import './mixins';
+// get in touch
+.getIntouch {
+    height: 500px;
+    @include flex(flex, column, center, center);
+    .getIntouch__content {
+        @include flex(flex, column, center, center);
+        .getIntouch__textBox {
+            .getIntouch__title {
+                @include title();
+            }
+            @include flex(flex, column, center, center);
+            max-width: 740px;
+            color: $textColor;
+            text-align: center;
+            .getIntouch__text {
+                font-family: $textFont;
+                font-size: 22px;
+            }
+        }
+    }
+}

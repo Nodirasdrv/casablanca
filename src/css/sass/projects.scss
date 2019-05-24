@@ -1,0 +1,51 @@
+@import "./variables";
+@import "./mixins";
+// section4
+.projects {
+    min-height: 1480px;
+    height: 100%;
+    @include flex(flex, column, space-around, center);
+    .projects__content {
+        min-height: 1280px;
+        height: 100%;
+        @include flex(flex, column, space-around, center);
+        .projects__textBox {
+            .projects__title {
+                @include title();
+            }
+            width: 660px;
+            height: 200px;
+            @include flex(flex, column, space-between, center);
+            .projects__ul {
+                width: 656px;
+                @include flex(flex, row, space-between, center);
+                list-style: none;
+                .projects__link {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: $slimJoe;
+                    color: $textColor;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+            }
+        }
+        .projects__photos {
+            max-width: 1170px;
+            height: 100%;
+            min-height: 865px;
+            @include flex(flex, row, space-around, center);
+            flex-wrap: wrap;
+        }
+        .projects__btn {
+            width: 370px;
+            height: 60px;
+            background: none;
+            border: 2px solid #000;
+            outline: none;
+            font-size: 24px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,1468 @@
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.welcomePage {
+  display: none;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+}
+
+.welcomePage .welcomePage__content {
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcomePage .welcomePage__content .welcomePage__header {
+  width: 100%;
+  height: 80px;
+}
+
+.welcomePage .welcomePage__content .welcomePage__header .welcomePage__hamburgerImg {
+  cursor: pointer;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 680px;
+  color: #fff;
+  text-align: center;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox .welcomePage__title {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-family: "Big John", serif;
+}
+
+.welcomePage .welcomePage__content .welcomePage__textBox .welcomePage__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+.welcomePage .welcomePage__content .welcomePage__mouseImg {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.introduction {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction .introduction__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction .introduction__content .introduction__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 740px;
+  color: #222;
+  text-align: center;
+}
+
+.introduction .introduction__content .introduction__textBox .introduction__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.introduction .introduction__content .introduction__textBox .introduction__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.creativity {
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creativity .creativity__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creativity .creativity__content .creativity__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 400px;
+  min-width: 370px;
+  height: 100px;
+  border: 2px solid #fff;
+  font-family: "Amble", serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.projects {
+  min-height: 1480px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .projects__content {
+  min-height: 1280px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .projects__content .projects__textBox {
+  width: 660px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .projects__content .projects__textBox .projects__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.projects .projects__content .projects__textBox .projects__ul {
+  width: 656px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.projects .projects__content .projects__textBox .projects__ul .projects__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Slim Joe", serif;
+  color: #222;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.projects .projects__content .projects__photos {
+  max-width: 1170px;
+  height: 100%;
+  min-height: 865px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projects .projects__content .projects__btn {
+  width: 370px;
+  height: 60px;
+  background: none;
+  border: 2px solid #000;
+  outline: none;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.helpPage {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.helpPage .helpPage__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 400px;
+  min-width: 370px;
+  height: 100px;
+  border: 2px solid #fff;
+  font-family: "Amble", serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.clientsPage {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clientsPage .clientsPage__content {
+  width: 1170px;
+  height: 50%;
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clientsPage .clientsPage__content .clientsPage__textBox {
+  width: 660px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clientsPage .clientsPage__content .clientsPage__textBox .clientsPage__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.clientsPage .clientsPage__content .clientsPage__clientsLogos {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.aboutUsPage {
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content {
+  height: 100%;
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222;
+  text-align: center;
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__textBox .aboutUsPage__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees {
+  max-width: 1170px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox {
+  width: 270px;
+  height: 360px;
+  border: 1px solid #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__card-title {
+  width: 107px;
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__applyBtn {
+  width: 183px;
+  height: 60px;
+  background: none;
+  outline: none;
+  border: 2px solid black;
+  font-weight: 700;
+  font-family: "Amble", serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.videoPage {
+  min-height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.videoPage .videoPage__playBtn {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.advantagePage {
+  max-width: 1600px;
+  min-height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantagePage .advantagePage__content {
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantagePage .advantagePage__content .advantagePage__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 740px;
+  color: #222;
+  text-align: center;
+}
+
+.advantagePage .advantagePage__content .advantagePage__textBox .advantagePage__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.advantagePage .advantagePage__content .advantagePage__textBox .advantagePage__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+.advantagePage .advantagePage__content .advantagePage__scroll {
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantagePage .advantagePage__content .advantagePage__scroll .scroll__item {
+  width: 340px;
+  height: 300px;
+  padding: 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Amble", serif;
+  font-size: 16px;
+}
+
+.advantagePage .advantagePage__content .advantagePage__scroll .scroll__item .scroll__imgBox {
+  height: 151px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.quotePage {
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.quotePage .quotePage__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 400px;
+  min-width: 370px;
+  height: 100px;
+  border: 2px solid #fff;
+  font-family: "Amble", serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.getIntouch {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.getIntouch .getIntouch__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.getIntouch .getIntouch__content .getIntouch__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 740px;
+  color: #222;
+  text-align: center;
+}
+
+.getIntouch .getIntouch__content .getIntouch__textBox .getIntouch__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+}
+
+.getIntouch .getIntouch__content .getIntouch__textBox .getIntouch__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.contacts {
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__content {
+  width: 100%;
+  max-width: 1600px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__location {
+  width: 40%;
+  height: 500px;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__log {
+  width: 615px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__textBox {
+  width: 240px;
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__title {
+  color: #222;
+  font-size: 30px;
+  font-family: "Big John", serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.contacts__text {
+  font-family: "Amble", serif;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.contacts__logos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form {
+  width: 60%;
+  height: 500px;
+  background-color: #e4e4e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Amble", serif;
+}
+
+.form__content {
+  height: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.form__input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #afafaf;
+  font-size: 18px;
+  padding: 0 0 10px 20px;
+}
+
+.form__msg {
+  width: 100%;
+}
+
+.form__inputMsg {
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #afafaf;
+  font-size: 18px;
+  padding: 0 0 10px 20px;
+  margin-bottom: 40px;
+}
+
+.form__submitBtn {
+  float: right;
+  width: 143px;
+  height: 40px;
+  background: none;
+  outline: none;
+  border: 2px solid black;
+  font-weight: 700;
+  font-family: "Amble", serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../../fonts/amble/Amble-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Big John';
+  src: url(../../fonts/BigJohnSlimJoe/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'Slim Joe';
+  src: url(../../fonts/BigJohnSlimJoe/SlimJoe.otf);
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333;
+}
+
+.footer .footer__content {
+  width: 610px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Amble", serif;
+  font-size: 16px;
+  color: #e4e4e4;
+}
+
+.footer .footer__content #footerName {
+  color: #d87843;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  width: 90%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contacts__content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #e4e4e4;
+  }
+  .contacts__content .contacts__location {
+    background-color: #e4e4e4;
+  }
+  .advantagePage .advantagePage__content .advantagePage__scroll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutUsPage .aboutUsPage__content {
+    width: 100%;
+  }
+  .aboutUsPage .aboutUsPage__content .aboutUsPage__employees {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__photo {
+    margin: 20px 0;
+  }
+  .clientsPage {
+    height: 100%;
+  }
+  .clientsPage .clientsPage__content .clientsPage__clientsLogos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

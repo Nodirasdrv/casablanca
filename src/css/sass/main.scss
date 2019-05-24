@@ -1,0 +1,70 @@
+@import "./variables";
+@import "./mixins";
+@import "./header";
+@import "./introPage";
+@import "./creativity";
+@import "./projects";
+@import "./helpPage";
+@import "./clientsPage";
+@import "./aboutUsPage";
+@import "./videoPage";
+@import "./advantage";
+@import "./quote";
+@import "./getInTouch.scss";
+@import "./contacts";
+@import "./footer";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    @include flex(flex, column, center, center);
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    width: 90%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contacts__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #e4e4e4;
+        .contacts__location {
+            background-color: #e4e4e4;
+        }
+    }
+    .advantagePage .advantagePage__content .advantagePage__scroll {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutUsPage .aboutUsPage__content {
+        width: 100%;
+    }
+    .aboutUsPage .aboutUsPage__content .aboutUsPage__employees {
+        display: flex;
+        flex-direction: column;
+        .aboutUsPage__photo {
+            margin: 20px 0;
+        }
+    }
+    .clientsPage {
+        height: 100%;
+        .clientsPage__content .clientsPage__clientsLogos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 400px;
+        }
+    }
+}

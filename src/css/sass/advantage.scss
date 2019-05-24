@@ -1,0 +1,41 @@
+@import './variables';
+@import './mixins';
+.advantagePage {
+    max-width: 1600px;
+    min-height: 900px;
+    @include flex(flex, column, center, center);
+    .advantagePage__content {
+        min-height: 600px;
+        @include flex(flex, column, space-between, center);
+        .advantagePage__textBox {
+            .advantagePage__title {
+                @include title();
+            }
+            @include flex(flex, column, center, center);
+            max-width: 740px;
+            color: $textColor;
+            text-align: center;
+            .advantagePage__text {
+                font-family: $textFont;
+                font-size: 22px;
+            }
+        }
+        .advantagePage__scroll {
+            max-width: 1170px;
+            @include flex(flex, row, space-around, center);
+            .scroll__item {
+                width: 340px;
+                height: 300px;
+                padding: 0 25px;
+                @include flex(flex, column, space-between, center);
+                text-align: center;
+                font-family: $textFont;
+                font-size: 16px;
+                .scroll__imgBox {
+                    height: 151px;
+                    @include flex(flex, row, center, center);
+                }
+            }
+        }
+    }
+}
