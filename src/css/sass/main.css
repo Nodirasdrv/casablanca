@@ -1408,7 +1408,7 @@ section {
   height: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1123px) {
   .contacts__content {
     width: 100%;
     height: 100%;
@@ -1440,15 +1440,17 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__photo {
-    margin: 20px 0;
+    margin: 10px;
   }
   .clientsPage {
+    width: 100%;
     height: 100%;
   }
   .clientsPage .clientsPage__content .clientsPage__clientsLogos {
@@ -1463,6 +1465,20 @@ section {
         -ms-flex-align: center;
             align-items: center;
     height: 400px;
+  }
+  .projects .projects__content .projects__photos {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .projects__content .projects__photos .project__img {
+    margin: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
