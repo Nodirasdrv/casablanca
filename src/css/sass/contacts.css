@@ -214,4 +214,10 @@
   font-size: 24px;
   cursor: pointer;
 }
+
+.form__submitBtn:hover {
+  background-color: #000;
+  opacity: .9;
+  color: #fff;
+}
 /*# sourceMappingURL=contacts.css.map */

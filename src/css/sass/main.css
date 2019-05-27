@@ -322,8 +322,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -332,7 +333,6 @@
 .projects .projects__content {
   min-height: 1280px;
   min-height: 100%;
-  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,12 +396,15 @@
   text-transform: uppercase;
   font-family: "Slim Joe", serif;
   color: #222;
-  font-weight: 400;
   font-size: 18px;
 }
 
+.projects .projects__content .active {
+  font-weight: bold;
+}
+
 .projects .projects__content .projects__photos {
-  max-width: 1170px;
+  max-width: 1100px;
   height: 100%;
   min-height: 865px;
   display: -webkit-box;
@@ -411,13 +414,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 30px 0;
 }
 
 .projects .projects__content .projects__btn {
@@ -429,6 +434,56 @@
   font-size: 24px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.projects .divOver {
+  width: 270px;
+  height: 360px;
+  float: left;
+  margin: 10px;
+  background-size: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .name {
+  width: 100%;
+  height: 90%;
+  display: none;
+  color: #000;
+}
+
+.projects .divOver:hover {
+  background-size: 101%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: .8;
+  border: 4px solid #000;
+  cursor: pointer;
+}
+
+.projects .divOver:hover .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @font-face {
@@ -699,7 +754,7 @@
       flex-wrap: wrap;
 }
 
-.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox {
+.aboutUsPage__applyBox {
   width: 270px;
   height: 360px;
   border: 1px solid #222;
@@ -718,8 +773,9 @@
           align-items: center;
 }
 
-.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container {
-  height: 80%;
+.aboutUsPage__applyBox .aboutUsPage__applyBox-container {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -733,9 +789,11 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
-.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__card-title {
+.aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__card-title {
   width: 107px;
   color: #222;
   font-size: 30px;
@@ -744,7 +802,7 @@
   font-size: 24px;
 }
 
-.aboutUsPage .aboutUsPage__content .aboutUsPage__employees .aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__applyBtn {
+.aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__applyBtn {
   width: 183px;
   height: 60px;
   background: none;
@@ -754,6 +812,74 @@
   font-family: "Amble", serif;
   font-size: 24px;
   cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.aboutUsPage__applyBox .aboutUsPage__applyBox-container .aboutUsPage__applyBtn:hover {
+  background-color: #000;
+  opacity: .9;
+  color: #fff;
+}
+
+.divOver {
+  width: 270px;
+  height: 360px;
+  float: left;
+  margin: 10px;
+  background-size: 100%;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.info {
+  width: 100%;
+  height: 90%;
+  display: none;
+  color: #fff;
+}
+
+.divOver:hover {
+  background-size: 105%;
+  background-color: black;
+  border: 2px solid #000;
+  opacity: 0.9;
+}
+
+.divOver:hover .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @font-face {
@@ -1312,6 +1438,12 @@
   font-family: "Amble", serif;
   font-size: 24px;
   cursor: pointer;
+}
+
+.form__submitBtn:hover {
+  background-color: #000;
+  opacity: .9;
+  color: #fff;
 }
 
 @font-face {

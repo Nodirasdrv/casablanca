@@ -51,7 +51,7 @@
                 <nav class="projects__nav">
                     <ul class="projects__ul">
                         <li class="projects__listItems">
-                            <a class="projects__link" href="#">All</a>
+                            <a class="projects__link active" href="#">All</a>
                         </li>
                         <li class="projects__listItems">
                             <a class="projects__link" href="#">Branding</a>
@@ -69,12 +69,42 @@
                 </nav>
             </div>
             <div class="projects__photos">
-                <img src="../images/4-1.png" alt="card image" class="project__img">
-                <img src="../images/4-2.png" alt="card image" class="project__img">
-                <img src="../images/4-3.png" alt="card image" class="project__img">
-                <img src="../images/4-4.png" alt="card image" class="project__img">
-                <img src="../images/4-5.png" alt="card image" class="project__img">
-                <img src="../images/4-6.png" alt="card image" class="project__img">
+                <div class="divOver" style="background-image: url(../images/4-1.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
+                <div class="divOver" style="background-image: url(../images/4-2.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
+                <div class="divOver" style="background-image: url(../images/4-3.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
+                <div class="divOver" style="background-image: url(../images/4-4.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
+                <div class="divOver" style="background-image: url(../images/4-5.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
+                <div class="divOver" style="background-image: url(../images/4-6.png)">
+                    <div class="name">
+                        <h2>MOBILE UI</h2>
+                        <p>Google Mail</p>
+                    </div>
+                </div>
             </div>
             <div class="projects__btnBox">
                 <button class="projects__btn" id="showMore"><strong>Show me more</strong></button>
@@ -114,9 +144,33 @@
                 <p class="aboutUsPage__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
             </div>
             <div class="aboutUsPage__employees">
-                <img src="../images/john.png" alt="employee" class="aboutUsPage__photo">
-                <img src="../images/cardGirl.png" alt="employee" class="aboutUsPage__photo">
-                <img src="../images/cardGirl2.png" alt="employee" class="aboutUsPage__photo">
+                <div class="divOver  aboutUsPage__photo" style="background-image: url(../images/john.png)">
+                    <div class="info">
+                        <div class="link"><img src="../images/link.png"></div>
+                        <div class="name">
+                            <h2>Johny</h2>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="divOver  aboutUsPage__photo" style="background-image: url(../images/cardGirl.png)">
+                    <div class="info">
+                        <div class="link"><img src="../images/link.png"></div>
+                        <div class="name">
+                            <h2>John</h2>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="divOver aboutUsPage__photo" style="background-image: url(../images/cardGirl2.png)">
+                    <div class="info">
+                        <div class="link"><img src="../images/link.png"></div>
+                        <div class="name">
+                            <h2>Joe</h2>
+                            <p>CEO</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="aboutUsPage__applyBox">
                     <div class="aboutUsPage__applyBox-container">
                         <h3 class="aboutUsPage__card-title">we are hiring</h3>
@@ -190,8 +244,8 @@
             <div class="form">
                 <div class="form__content">
                     <form class="form__log">
-                        <input type="text" class="form__input" placeholder="Name">
-                        <input type="email" class="form__input" placeholder="Email">
+                        <input type="text" class="form__input" placeholder="Name" required>
+                        <input type="email" class="form__input" placeholder="Email" required>
                     </form>
                     <form class="form__msg">
                         <input type="text" placeholder="Message" class="form__inputMsg">
